@@ -18,7 +18,7 @@ class Backup():
         - Creates OAuth2 object to generate the authorization url and associated csrf token.
         - Sets the redirect url to localhost
         '''
-        with open('credential.txt', 'r') as credentials:
+        with open('src/credential.txt', 'r') as credentials:
             CLIENT_ID = credentials.readline().strip()
             CLIENT_SECRET = credentials.readline().strip()
             self.BACKUPFOLDERID = credentials.readline().strip()

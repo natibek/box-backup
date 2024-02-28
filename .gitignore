@@ -1,2 +1,3 @@
 /venv
-src/credentials.txt
+src/credential.txt
+src/__pycache__
