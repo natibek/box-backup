@@ -1,4 +1,4 @@
-# Box_Backup_App
+# box-backup
 
 This is a desktop app to automate Box backup for the Biological Sciences Department at the University of Chicago. It uses the boxsdk library and tkinter to back up local files and folders to a selected online box directory. 
 
